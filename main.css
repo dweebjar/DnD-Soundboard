@@ -1,7 +1,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
-    font-family: 'Playball', cursive;
+    font-family: 'Anton', sans-serif;
 }
 
 ::-webkit-scrollbar {
