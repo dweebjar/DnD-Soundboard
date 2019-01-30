@@ -1,0 +1,94 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: 'Playball', cursive;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+    background: url(https://wallpaperaccess.com/full/117907.jpg) bottom center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  } 
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .key {
+    border: .4rem solid #9d0a0e;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #9d0a0e;
+  }
+
+  footer {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    justify-content: space-around;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #9d0a0e;
+    font-size: 1.25rem;
+}
+
+.fab {
+    margin-right: 4px;
+    margin-left: 4px;
+}
